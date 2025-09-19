@@ -1,0 +1,262 @@
+/* Importando Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Variáveis */
+:root {
+    --cor-background: #00030C;
+    --cor-botao: #167BF7;
+    /* Rodapé */
+    --fonte: 'Inter';
+    --cor-principal: #FFFFFF;
+    --cor-texto-termo: #C0C0C0;
+    --cor-texto-detalhe: #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+/* Body */
+
+body {
+    background-color: var(--cor-background);
+    width: 100%;
+    height: 100vh;
+}
+
+.conteudo_01 {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 10%;
+}
+.conteudo_01_texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 41%;
+}
+.conteudo_01_titulo {
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--cor-principal);
+}
+
+.conteudo_01_logo{
+    width: 348px;
+    margin-bottom: 55px;
+}
+
+.conteudo_01_botoes{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-principal);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.conteudo_01_botoes_botao_01{
+    background-color: var(--cor-botao);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.conteudo_01_botoes_botao_02{
+    border: 1px solid var(--cor-principal);;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.conteudo_01_termo{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto-termo);
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.conteudo_02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20%;
+    margin: 10%;
+}
+
+.conteudo_02_imagem {
+    width: 35%;
+}
+
+.conteudo_02_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 41%;
+}
+
+.conteudo_02_titulo{
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-principal);
+    
+}
+
+.conteudo_02_detalhe{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto-detalhe);
+    font-size: 16px;
+
+}
+
+.conteudo_03{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.conteudo_03_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 43%;
+}
+
+.conteudo_03_detalhe{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto-detalhe);
+    font-size: 16px;
+}
+
+.conteudo_03_botao{
+    color: var(--cor-principal);
+    background-color: var(--cor-botao);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.conteudo_03_imagem{
+    width: 40%;
+}
+
+.conteudo_04 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20%;
+    margin: 10%;
+}
+
+.conteudo_04_imagem {
+    width: 38%;
+}
+
+.conteudo_04_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 46%;
+}
+
+.conteudo_04_titulo{
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-principal);
+    
+}
+
+.conteudo_04_detalhe{
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto-detalhe);
+    font-size: 16px;
+
+}
+
+.conteudo_05{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.conteudo_05_titulo{
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-principal);
+    text-align: center;
+}
+.conteudo_05_dispositivos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.conteudo_05_dispositivos_dispositivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte);
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--cor-principal);
+    width: 100%;
+}
+
+.conteudo_05_imagens_imagem{
+    width: 50%;
+}
+
+
+/* Rodapé */
+.rodape {
+    padding: 0% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape_logo {
+    width: 7%;
+    margin: 40px;
+}
+
+.rodape_links {
+    display: flex;
+    gap: 16px;
+}
+
+.rodape_links_link {
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-principal);
+    font-size: 16px;
+}
+
+.rodape_textos_texto {
+    font-family: var(--fonte);
+    font-weight: 400;
+    color: var(--cor-texto-termo);
+    font-size: 14px;
+    text-align: center;
+}
