@@ -1,0 +1,22 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carousel.css");
+@import url("topics.css");
+@import url("contact.css");
+
+:root {
+    --bg-color: #EBECEE;
+    --primary-color: #EB9B00;
+    --secondary-color: #FFFFFF;
+    --terciary-color: #002F52;
+    --gradient-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --primary-font: "Poppins";
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+

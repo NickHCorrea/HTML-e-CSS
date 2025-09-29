@@ -1,0 +1,59 @@
+.header{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.header__burguer-menu {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container__button:checked ~ .menu-list{
+    display: block;
+}
+
+.container__button{
+    display: none;
+}
+
+.menu-list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.menu-list__title, .menu-list__item{
+    padding: 1em;
+    background-color: var(--secondary-color);
+}
+
+.menu-list__title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.menu-list__item__link{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container__image{
+    padding: 1em;
+}
